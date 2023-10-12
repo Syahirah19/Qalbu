@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/upperyellowbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/circle"
+        android:elevation="20dp"/>
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo_qalbu" />
+
+    <TextView
+        android:id="@+id/txtSelfCare"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="cursive"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:text="Self Care Mental Health"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <RelativeLayout
+        android:id="@+id/btn_Feelings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFEB3B"
+        android:clickable="true"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:id="@+id/btnFeelings"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="200dp"
+            app:srcCompat="@drawable/img_feelings" />
+
+        <TextView
+            android:id="@+id/txtSkip"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="60dp"
+            android:fontFamily="casual"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:text="How do you \n\t\t\t\t\tfeel today ?"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/btn_routine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFEB3B"
+        android:clickable="true"
+        android:padding="1dp"        >
+
+        <ImageView
+            android:id="@+id/btnRoutine"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="200dp"
+            app:srcCompat="@drawable/img_routine" />
+
+        <TextView
+            android:id="@+id/txtRoutine"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="60dp"
+            android:fontFamily="casual"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:text="Healthy \n\t\t\t\t\tRoutine"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_Journal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFEB3B"
+        android:clickable="true"
+        android:padding="1dp"        >
+
+        <ImageView
+            android:id="@+id/btnJournal"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginStart="200dp"
+            app:srcCompat="@drawable/img_journal" />
+
+        <TextView
+            android:id="@+id/txtJournal"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="60dp"
+            android:fontFamily="casual"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:text="Daily \n\t\t\t\tJournal"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

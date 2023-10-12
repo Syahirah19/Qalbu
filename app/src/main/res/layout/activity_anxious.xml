@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Anxious"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/upperyellowbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-80dp"
+        android:background="@drawable/circle"
+        android:elevation="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_marginTop="5dp"
+        android:padding="1dp">
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/rectangle"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="146dp"-->
+        <!--            app:srcCompat="@drawable/rectangle" />-->
+
+        <ImageView
+            android:id="@+id/imgAnxious"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/emoji_anxious"/>
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="casual"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:text="How To Heal Anxious?"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rectangle2"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:id="@+id/draw"
+            android:padding="3dp"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/anx_draw" />
+
+        <TextView
+            android:id="@+id/txtDraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="casual"
+            android:text="Creative Activity"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/txtDraw2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="casual"
+            android:text="Do painting or any DIY project"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rectangle2"
+        android:clickable="true"
+        android:padding="1dp"        >
+
+        <ImageView
+            android:id="@+id/act_healthy"
+            android:padding="3dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/anx_healthy" />
+
+        <TextView
+            android:id="@+id/txtHealthy"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:text="Healthy Activities"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtHealthy2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="casual"
+            android:text="Balanced diet, swimming and get enough sleep"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rectangle2"
+        android:padding="1dp"        >
+
+        <ImageView
+            android:id="@+id/act_meTime"
+            android:padding="3dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/anx_metime" />
+
+        <TextView
+            android:id="@+id/txtmeTime"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:text="Me Time"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtmeTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="casual"
+            android:text="Meeting Friends, enjoy cold drinks and go to spa"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

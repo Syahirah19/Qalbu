@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "549605805934",
+    "project_id": "qalbu-446ea",
+    "storage_bucket": "qalbu-446ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549605805934:android:316e7fc6386e62f7d2bb7f",
+        "android_client_info": {
+          "package_name": "com.example.qalbu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqCRpzszvV5x2Mxs5lZVeEt2Ga9XnyN7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549605805934:android:7acf447511452ee1d2bb7f",
+        "android_client_info": {
+          "package_name": "qalbu.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqCRpzszvV5x2Mxs5lZVeEt2Ga9XnyN7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

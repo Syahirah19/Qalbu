@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".login"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/upperyellowbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/circle"
+        android:elevation="20dp" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo_qalbu" />
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_gravity="center"
+        android:text="Log In"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#0C0C0C"
+        android:textSize="48sp" />
+
+    <!--    to enter email-->
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#5E5858"
+        android:textColorHint="#006064" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#5E5858"
+            android:textColorHint="#006064" />
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imgEyeClose"-->
+        <!--            android:layout_width="20dp"-->
+        <!--            android:layout_height="20dp"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            android:layout_marginStart="320dp"-->
+        <!--            app:srcCompat="@drawable/eye_close" />-->
+
+    </RelativeLayout>
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtRegister"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="60dp"-->
+<!--        android:layout_marginEnd="60dp"-->
+<!--        android:gravity="end"-->
+<!--        android:clickable="true"-->
+<!--        android:focusable="true"-->
+<!--        android:onClick="goToActivity_Register"-->
+<!--        android:text="Register Now"-->
+<!--        android:textColor="#3F00FF"-->
+<!--        android:textSize="12sp" />-->
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:onClick="goValidate"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:onClick="goValidate"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtSkip"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginStart="60dp"-->
+<!--        android:layout_marginEnd="60dp"-->
+<!--        android:gravity="center"-->
+<!--        android:clickable="true"-->
+<!--        android:focusable="true"-->
+<!--        android:onClick="goToActivity_Register"-->
+<!--        android:text="Skip"-->
+<!--        android:textColor="#3F00FF"-->
+<!--        android:textSize="20sp" />-->
+
+</LinearLayout>

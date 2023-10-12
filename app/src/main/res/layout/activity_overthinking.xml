@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".overthinking"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/upperyellowbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-80dp"
+        android:background="@drawable/circle"
+        android:elevation="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:padding="1dp"
+        android:layout_marginTop="5dp">
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/rectangle"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="146dp"-->
+        <!--            app:srcCompat="@drawable/rectangle" />-->
+
+        <ImageView
+            android:id="@+id/imgThinking"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/emoji_thinking"/>
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="casual"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:text="How To Solve Overthinking?"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rectangle2"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:id="@+id/act_reading"
+            android:padding="3dp"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/tng_read" />
+
+        <TextView
+            android:id="@+id/txtReading"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="60dp"
+            android:fontFamily="casual"
+            android:text="Reading"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/txtReading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="casual"
+            android:text="Choose your favourite book or read Al-Quran"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rectangle2"
+        android:clickable="true"
+        android:padding="1dp"        >
+
+        <ImageView
+            android:id="@+id/act_exercise"
+            android:padding="3dp"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/tng_exercise" />
+
+        <TextView
+            android:id="@+id/txtExercise"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="casual"
+            android:text="Exercise"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtExercise2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="casual"
+            android:text="Do yoga, Zumba or any contemporary dance"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rectangle2"
+        android:padding="1dp"        >
+
+        <ImageView
+            android:id="@+id/act_brains"
+            android:padding="3dp"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/tng_brains" />
+
+        <TextView
+            android:id="@+id/txtBrains"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="casual"
+            android:text="Brains Games"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtBrains2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="casual"
+            android:text="Have fun with jigsaw puzzle, boardgames and crosswords"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
